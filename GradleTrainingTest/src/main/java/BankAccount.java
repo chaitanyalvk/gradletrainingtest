@@ -8,18 +8,18 @@ import java.math.BigDecimal;
  */
 public class BankAccount {
 
-	BigDecimal balance;
+	BigDecimal balances;
 	
     public BigDecimal getBalance() {
-		return balance;
+		return balances;
 	}
 
 	public BankAccount(BigDecimal balance) {
-		this.balance = balance;
+		this.balances = balance;
 	}
     
     public void deposit(BigDecimal bal){
-    	this.balance.add(bal);
+    	this.balances.add(bal);
     }
     
 }
